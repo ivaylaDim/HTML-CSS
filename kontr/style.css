@@ -1,0 +1,130 @@
+
+ body{
+    background-color: #E9F1FA;
+    color:#00487C;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 80px;
+ }
+ section{
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+#right{
+    align-items: center;
+    width: 340px;
+    height:450px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    background-color:#E9F1FA;
+    border-radius: 5px;
+    box-shadow: -30px 0px 96px 3px #00abe4
+}
+#left{
+    width: 340px;
+    height:450px;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+    background-color: #E9F1FA;
+    border-radius: 5px;
+    box-shadow: -30px 0px 96px 3px #00abe4
+}
+#subscribe{
+    padding: 10px 20px;
+    background-color:#00abe4;
+    color:white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+#subscribe:hover{
+    background-color: #092832;
+}
+#register{
+    padding: 10px 20px;
+    background-color:#00abe4;
+    color:white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+#register:hover{
+    background-color: #092832;
+}
+#login{
+    padding: 10px 20px;
+    background-color:white;
+    color:#00abe4;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+section {
+    margin: 2px auto;
+}
+#login:hover{
+    background-color: #E9F1FA;
+}
+hr :nth-of-type(1){
+    width: 1px;
+    height: 450px;
+    background-color:  #00487C;
+    margin: 0 30px;
+}
+hr :nth-of-type(2){
+    width: 1px;
+    height: 450px;
+    background-color:  #00487C;
+}
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+span{
+    font-size: 15px;
+    margin: 0 10px;
+    text-align: center;
+}
+label{
+    font-size: 11px;
+    text-align: left;
+    padding: 6px;
+    color:#797b7e;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+input{
+    padding: 7px;
+    margin: 10px;
+    border-radius: 3px;
+    border: 1px solid #797b7e;
+    width: 300px;
+}
+h1{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    color:#797b7e;
+}
