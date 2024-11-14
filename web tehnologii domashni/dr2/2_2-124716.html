@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Форма за Настаняване в Хотел</h1>
+
+    <form action="https://ue-varna.bg/" method="get">
+
+        <label for="arrivals">Дата на пристигане:</label>
+        <input type="date" id="arrivals" name="arrivals" required>
+        <br><br>
+        <label for="departure">Дата на отпътуване:</label>
+        <input type="date" id="departure" name="departure" required>
+        <br><br>
+        <label for="name">Име:</label>
+        <input type="text" id="Ime" name="Ime" minlength="2" placeholder="Ivayla" required>
+        <br><br>
+        <label for="middle">Презиме:</label>
+        <input type="text" id="middle" name="middle" placeholder="Mladenova" minlength="2" required>
+        <br><br>
+        <label for="last">Фамилия:</label>
+        <input type="text" id="last" name="last" placeholder="Dimitrova" minlength="2" required>
+        <br><br>
+        <label for="email">Имейл:</label>
+        <input type="email" id="email" name="email" minlength="2" placeholder="124716@students.ue-varna.bg" required>
+        <br><br>
+        <label for="address">Физически адрес:</label>
+        <input type="text" id="address" name="address" minlength="2" required>
+        <br><br>
+        <label for="requirements">Допълнителни изисквания:</label>
+        <textarea id="requirements" name="requirements" minlength="2" required></textarea>
+        <br><br><br><br>
+        <button type="submit">Изпрати</button>
+
+    </form>
+</body>
+
+</html>

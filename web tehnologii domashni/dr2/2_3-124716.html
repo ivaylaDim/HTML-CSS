@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1>Редактиране на артикул</h1>
+        <label for="item">Артикул</label>
+        <input type="text" id="item" name="item" required>
+        <br><br>
+        <label for="serialN">Сериен номер</label>
+        <input type="text" id="serialN" name="serialN" placeholder="124716" required>
+        <br><br>
+        <label for="price">Цена</label>
+        <input type="number" id="price" name="price" required>
+        <br><br>
+        <label for="description">Описание</label>
+        <textarea id="description" name="description" required></textarea>
+        <br><br><br><br>
+        <button type="submit" formaction="https://ue-varna.bg/">Добави</button>
+        <br><br><br><br>
+        <button type="submit" formaction="https://www.google.bg/">Редактирай</button>
+        <br><br><br><br>
+    </form>
+    <h1>Търсене в YouTube</h1>
+    <form action="https://www.youtube.com/results" method="get">
+        <label for="search">What are you going to watch?</label>
+        <input type="text" id="search" name="search_query" placeholder="Search" required>
+        <br><br><br><br>
+        <button type="submit">⌕</button>
+    </form>
+</body>
+
+</html>

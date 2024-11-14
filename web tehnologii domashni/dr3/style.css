@@ -1,0 +1,95 @@
+body{
+    background-color: #ccc;
+}
+i{
+    font-size: 100px;
+    color: darkcyan;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+    font-size: 40px;
+}
+form{
+    text-align: center;
+}
+.container{
+width:300px;
+padding: 20px;
+margin: 0 auto;
+border-radius: 30px;
+background-color: #f9f9f9;
+border-bottom: 10px solid darkgrey;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    border-right: 10px solid darkgrey;
+    box-shadow: 6px 12px 20px rgba(59, 58, 58, 0.2);
+}
+
+div{
+    margin: 5px 0;
+    margin: auto;
+
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display:block;
+    color: darkslategrey;
+    text-align: justify;
+    margin-right: 8px;
+}
+#email{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid darkcyan;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-bottom: 3px solid darkcyan;
+}
+#password{
+  
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid darkcyan;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-bottom: 3px solid darkcyan;
+}
+#confirmPassword{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid darkcyan;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-bottom: 3px solid darkcyan;
+}
+
+#checkbox{
+    color:black;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    background-color: rgb(43, 147, 147);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    border-bottom: 3px solid rgb(1, 114, 114);
+}
+#sec5{
+    display: flex;
+    align-items: center;
+}
+span{
+    color: darkcyan;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Регистрация</h1>
+    <form action="http://ue-varna.bg/bg">
+        <div class="container">
+            <i class="fa-solid fa-frog"></i>
+            <section id="sec1">
+                <label for="email">Имейл</label>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Въведете имейл" required>
+                </div>
+            </section>
+            <section id="sec2">
+                <label for="confirmEmail">Потвърдете Имейл</label>
+                <div><input type="email" id="email" name="email" placeholder="Потвърдете имейл" required></div>
+            </section>
+            <section id="sec3">
+                <label for="password">Парола</label>
+                <div><input type="password" name="" id="password" name="password" placeholder="Въведете парола"
+                        required></div>
+            </section>
+            <section id="sec4">
+                <label for="confirmPassword">Потвърдете Парола</label>
+                <div> <input type="password" name="confirmPassword" id="confirmPassword" name="confirmPassword"
+                        placeholder="Потвърдете парола" required></div>
+
+            </section>
+            <br>
+            <section id="sec5">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label id="checkbox" for="terms">Съгласен съм с <a href="#"><b>Условията за ползване</b></a> на <br>
+                    <span><b>Frog Economics</b></span></label>
+            </section>
+            <br>
+            <div><button type="submit">Регистрирай се</button></div>
+
+        </div>
+    </form>
+</body>
+
+</html>
